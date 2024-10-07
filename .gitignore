@@ -1,0 +1,42 @@
+# Configuración de Microsoft Visual Studio Code
+.vscode/
+.history/
+*.vsix
+
+# Archivos del sistema de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de la Papelera de Reciclaje
+$RECYCLE.BIN/
+
+# Archivos creados por Windows, como almacenamiento en caché de miniaturas
+.DS_Store
+
+# Carpetas de metadatos del sistema de archivos
+System Volume Information/
+
+# Archivos de bloqueo creados por Windows
+*.lock
+
+# Archivos de caché o configuraciones temporales del usuario
+*.bak
+*.tmp
+*.swp
+*.swo
+*.log
+
+# Archivos generados por editores o compiladores en Windows
+*.obj
+*.exe
+*.pdb
+*.dll
+*.class
+*.pyc
+*.jar
+*.csproj.user
+*.suo
+
+# Configuración de entornos locales
+.idea/
