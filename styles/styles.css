@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.summary-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.summary-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.summary-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Project Cards */
+.project-card {
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills */
+.skills-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
